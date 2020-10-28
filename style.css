@@ -1,0 +1,164 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 70%;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background-color: white;
+}
+
+.header {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(899, 7, 674, 0.5)), to(rgba(2, 209, 123, 0.5))), url("img/garbanguli.jpg");
+  background-image: linear-gradient(to right bottom, rgba(100, 34, 255, 0.5), rgba(209, 144, 2, 0.5)), url("img/garbanguli.jpg");
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.header-text-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 10rem;
+  text-transform: uppercase;
+}
+
+.header-primary {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.text-container {
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    
+}
+
+
+.heading-primary-main {
+  font-size: 10rem;
+  letter-spacing: .5rem;
+  text-shadow: 5px 5px magenta;
+}
+.heading-primary-sub {
+  font-size: 7rem;
+  
+}
+
+.header-2 {
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 87, 34, 0.5)), to(rgba(2, 136, 209, 0.5))), url("img/apizza.jpg");
+    background-image: linear-gradient(to right bottom, rgba(255, 87, 34, 0.5), rgba(2, 136, 209, 0.5)), url("img/apizza.jpg");
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+  }
+
+  .header-3 {
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 87, 34, 0.5)), to(rgba(2, 136, 209, 0.5))), url("img/steak.jpg");
+    background-image: linear-gradient(to right bottom, rgba(255, 87, 34, 0.5), rgba(2, 136, 209, 0.5)), url("img/steak.jpg");
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+  }
+
+.header-4 {
+  
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 87, 34, 0.5)), to(rgba(2, 136, 209, 0.5))), url("img/bighamburger.jpg");
+    background-image: linear-gradient(to right bottom, rgba(255, 87, 34, 0.5), rgba(2, 136, 209, 0.5)), url("img/bighamburger.jpg");
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+
+
+}
+
+.heading-primary-sub-2 {
+  font-size: 7rem;
+}
+
+.body-header {
+  color: black;
+  background-color:lightgreen;
+  background-size: 50vw;
+  font-size: 4rem;
+  flex-direction: column;
+  justify-content: center;
+  height: 50%;
+}
+
+.body-main {
+  color: black;
+  background-color: lightgreen;
+  font-size: 2.1rem;
+  flex-direction: column;
+  justify-content: center;
+  height: 50%;
+  margin-bottom: 60vh;
+}
+
+.body-header-2 {
+  color: black;
+  background-color: lightgreen;
+  background-size: 50vw;
+  font-size: 4rem;
+  flex-direction: column;
+  justify-content: center;
+  height: 50%;
+
+}
+
+
+.body-main-2 {
+  color: black;
+  background-color: lightgreen;
+  font-size: 2.1rem;
+  flex-direction: column;
+  justify-content: center;
+  height: 50%;
+  margin-bottom: 60vh;
+}
+
+.body-header-3 {
+  color:black;
+  background-color: lightgreen;
+  background-size: 50vw;
+  font-size: 4rem;
+  flex-direction: column;
+  justify-content: center;
+  height: 50%;
+
+}
+
+
+.body-main-3 {
+  color: black;
+  background-color: lightgreen;
+  font-size: 2.1rem;
+  flex-direction: column;
+  justify-content: center;
+  height: 50%;
+  margin-bottom: 20vw;

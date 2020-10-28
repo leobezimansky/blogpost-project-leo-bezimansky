@@ -1,0 +1,63 @@
+@import "_color-variables.scss";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.header {
+    background-image: linear-gradient(
+        to left top,
+        rgba(color(primary), 0.5),
+        rgba(color(primary-light), 0.5)
+      ),
+      url("img/foodfood.jpg");
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+    color: white;
+    
+    
+  }
+
+  .header-2 {
+    background-image: linear-gradient(
+        to left top,
+        rgba(color(primary), 0.5),
+        rgba(color(primary-light), 0.5)
+      ),
+      url("img/apizza.jpg");
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+  }
+  .header-text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 7rem;
+    text-transform: uppercase;
+  }
+
+  .header-primary {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .heading-primary-sub {
+    font-size: 7rem;
+  }
+  .heading-primary-sub-sub {
+    font-size: 6rem;
+  }
+
+  
